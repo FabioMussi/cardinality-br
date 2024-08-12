@@ -20,10 +20,10 @@ class BrazilianCardinality::CurrencyTest < Minitest::Test
     assert_equal 'dois milhões e duzentos reais e um centavo', @klass.currency_cardinal(2_000_200.01)
     assert_equal 'um bilhão de reais e um centavo', @klass.currency_cardinal(1_000_000_000.01)
     assert_equal 'um trilhão de reais e um centavo', @klass.currency_cardinal(1_000_000_000_000.01)
-    assert_equal 'cento e vinte e oito mil e duzentos e quarenta e três reais e vinte e oito centavos', @klass.currency_cardinal(128_243.28)
-    assert_equal 'oitenta e dois mil e trezentos e oitenta e nove reais e dezenove centavos', @klass.currency_cardinal(82_389.19)
-    assert_equal 'dois mil e trezentos e quarenta e sete reais e vinte e oito centavos', @klass.currency_cardinal(2_347.28)
-    assert_equal 'noventa e dois mil e trezentos e setenta e dois reais e oitenta e seis centavos', @klass.currency_cardinal(92_372.86)
+    assert_equal 'cento e vinte e oito mil duzentos e quarenta e três reais e vinte e oito centavos', @klass.currency_cardinal(128_243.28)
+    assert_equal 'oitenta e dois mil trezentos e oitenta e nove reais e dezenove centavos', @klass.currency_cardinal(82_389.19)
+    assert_equal 'dois mil trezentos e quarenta e sete reais e vinte e oito centavos', @klass.currency_cardinal(2_347.28)
+    assert_equal 'noventa e dois mil trezentos e setenta e dois reais e oitenta e seis centavos', @klass.currency_cardinal(92_372.86)
   end
 
   def test_negative_values
