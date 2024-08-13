@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Cardinal expression of a number in brazilian language}
   spec.description   = %q{Cardinal expression of a number in brazilian language}
-  spec.homepage      = "https://github.com/leandro/cardinality-br"
+  spec.homepage      = "https://github.com/dmGiacomel/cardinality-br.git"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
